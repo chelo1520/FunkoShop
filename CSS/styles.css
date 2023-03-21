@@ -1,0 +1,102 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #30343F;
+  padding: 15px 20px;
+}
+
+#logo-funko {
+  max-width: 290px;
+}
+
+@media screen and (max-width: 380px) {
+  #logo-funko {
+      max-width: 220px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+  .navbar {
+      padding: 15px 0px;
+    }
+}
+
+
+.collapse {
+  justify-content: end;
+}
+
+#icon-shop {
+  font-size: 2rem;
+  margin-left: .4rem;
+}
+
+#links {
+  align-items: center;
+}
+
+/* MAIN */
+
+.main {
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+}
+
+#banner {
+  grid-column: 1/6;
+}
+#star-wars {
+  grid-column: 2/3;
+}
+#pokemon {
+  grid-column: 2/3;
+}
+#harry {
+  grid-column: 2/3;
+}
+#news {
+  grid-column: 2/3;
+}
+#footer {
+  grid-column: 1/6;
+}
+
+/* BANNER */
+
+#banner {
+  background-image: url("/multimedia/funkos-banner.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+#text-banner h1 {
+  color: white;
+}
+
+#text-banner p {
+  color: rgb(211, 208, 208);
+  font-size: 1.2rem;
+}
+
+#button-banner {
+  margin-top: 18px;
+  font-size: 1.6rem;
+  border-radius: 40px;
+  color: black;
+  background-color: white;
+  border: none;
+  padding: .3rem 4.5rem ;
+}
+
+#flex-banner {
+  margin-left: 8rem;
+}
