@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-coleccion: #30343F;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -99,4 +103,39 @@
 
 #flex-banner {
   margin-left: 8rem;
+}
+
+/* STAR WARS */
+
+#star-wars {
+  display: flex;
+  align-items: center;
+}
+
+#star-wars h1 {
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+}
+
+#star-wars p {
+  font-size: 1.6rem;
+  color: rgb(79, 91, 102);
+}
+
+#text-wars {
+  flex-grow: 1;
+}
+
+.linear-red {
+  border: 2.6px solid red;
+  margin-bottom: 1.5rem;
+}
+
+.button-coleccion {
+  font-size: 1.8rem;
+  color: white;
+  padding: .5rem 3rem;
+  border-radius: 30px;
+  background-color: var(--color-coleccion);
 }
