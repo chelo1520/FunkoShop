@@ -139,3 +139,25 @@
   border-radius: 30px;
   background-color: var(--color-coleccion);
 }
+
+/* FOOTER */
+
+#footer {
+  height: 300px;
+  background-color: var(--color-coleccion);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer-menu h2{
+  font-size: 1.5rem;
+  color: rgb(207, 205, 205);
+}
+
+#footer p {
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(207, 205, 205) ;
+  align-self: flex-end;
+}
