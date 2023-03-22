@@ -161,3 +161,41 @@
   color: rgb(207, 205, 205) ;
   align-self: flex-end;
 }
+
+/* NEWS CAROUSEL */
+
+#news {
+  margin-bottom: 5rem ;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#news h1 {
+  align-self: self-start;
+}
+
+
+.carousel {
+  width: 400px;
+  height: 500px;
+}
+
+.serie {
+  font-size: .8rem;
+}
+
+.nombre {
+  font-size: 1.2rem;
+}
+
+.precio {
+  font-size: 1rem;
+}
+
+.cuotas {
+  font-size: .7rem;
+  color: rgb(13, 168, 230) ;
+}
