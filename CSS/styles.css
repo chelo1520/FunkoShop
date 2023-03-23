@@ -6,6 +6,7 @@
 
 :root {
   --color-coleccion: #30343F;
+  --color-white: white;
 }
 
 /* NAVBAR */
@@ -39,10 +40,24 @@
 #icon-shop {
   font-size: 2rem;
   margin-left: .4rem;
+  color: var(--color-white);
+}
+
+#icon-shop:hover {
+  color: black;
 }
 
 #links {
   align-items: center;
+}
+
+.nav-link {
+  color: var(--color-white);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+  color: var(--color-white);
 }
 
 /* MAIN */
@@ -75,15 +90,27 @@
 
 #banner {
   background-image: url("/multimedia/funkos-banner.webp");
-  background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
   display: flex;
   align-items: center;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  animation: moverFondo 10s linear infinite ;
 }
 
+/* @keyframes moverFondo{
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 0 100vh;
+  }
+} */
+
 #text-banner h1 {
-  color: white;
+  color: var(--color-white);
 }
 
 #text-banner p {
@@ -99,6 +126,15 @@
   background-color: white;
   border: none;
   padding: .3rem 4.5rem ;
+  box-shadow: 0px 0px 20px rgb(146, 144, 144);
+  transition: padding .7s ease ;
+}
+
+#button-banner:hover {
+  background-color: var(--color-coleccion);
+  color: var(--color-white);
+  padding: .5rem 5rem;
+  font-size: 1.9rem;
 }
 
 #flex-banner {
@@ -138,29 +174,18 @@
   padding: .5rem 3rem;
   border-radius: 30px;
   background-color: var(--color-coleccion);
+  transition: all .5s ease;
 }
 
-/* FOOTER */
-
-#footer {
-  height: 300px;
-  background-color: var(--color-coleccion);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.button-coleccion:hover {
+  border-radius: 0;
+  background-color: var(--color-white);
+  color: var(--color-coleccion);
+  padding: .5rem 4.4rem;
+  font-weight: 900;
 }
 
-#footer-menu h2{
-  font-size: 1.5rem;
-  color: rgb(207, 205, 205);
-}
 
-#footer p {
-  font-size: 1.3rem;
-  font-family: 'Courier New', Courier, monospace;
-  color: rgb(207, 205, 205) ;
-  align-self: flex-end;
-}
 
 /* NEWS CAROUSEL */
 
@@ -199,3 +224,32 @@
   font-size: .7rem;
   color: rgb(13, 168, 230) ;
 }
+
+
+/* FOOTER */
+
+#footer {
+  height: 300px;
+  background-color: var(--color-coleccion);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#footer-menu h2 {
+  font-size: 1.5rem;
+  color: rgb(207, 205, 205);
+  transition: all .5s ease ;
+}
+
+#footer-menu h2:hover {
+  transform: translateX(1rem);
+}
+
+#footer p {
+  font-size: 1.3rem;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(207, 205, 205);
+  align-self: flex-end;
+}
+
