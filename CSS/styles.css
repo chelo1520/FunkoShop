@@ -7,6 +7,7 @@
 :root {
   --color-coleccion: #30343F;
   --color-white: white;
+  --color-nuevos-lider: #FF3333;
 }
 
 /* NAVBAR */
@@ -189,42 +190,108 @@
 
 /* NEWS CAROUSEL */
 
-#news {
-  margin-bottom: 5rem ;
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.slider {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  transition: transform 0.8s ease;
+  position: relative;
 }
 
-#news h1 {
-  align-self: self-start;
-}
-
-
-.carousel {
-  width: 400px;
+.card {
+  flex: 0 0 calc(94.5% / 3);
+  /* margin-right: 10px; */
+  background-color: rgb(252, 252, 252);
+  border: none;
+  padding: 20px;
+  text-align: center;
+  width: 0px;
   height: 500px;
+  cursor: pointer;
+  margin: 1%;
+  transition: box-shadow .2s ease;
+}
+.card:hover{
+  box-shadow: 0 0 .5rem rgb(202, 200, 200);
 }
 
-.serie {
-  font-size: .8rem;
+#info-slider{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.nombre {
-  font-size: 1.2rem;
-}
-
-.precio {
+.serie-slider{
   font-size: 1rem;
+    margin-bottom: 0;
 }
 
-.cuotas {
+.name-slider{
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.precio-slider{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.cuotas-slider{
   font-size: .7rem;
-  color: rgb(13, 168, 230) ;
+  color: #1D84B5;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
 }
 
+.img-slider{
+  margin: auto;
+}
+
+#nuevo-slider{
+  background-color: var(--color-nuevos-lider);
+  display: inline;
+  padding: .2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: .7rem;
+  color: white;
+  position: absolute;
+  top: 8%;
+  right: 6%;
+}
+
+#prevBtn , #nextBtn{
+  /* border: .5px solid rgb(201, 197, 197); */
+  padding: 0 .3rem 0 .3rem;
+  font-size: 1.5rem;
+  color: rgb(114, 112, 112) ;
+  border-radius: 5px;
+  box-shadow: 0 0 .1rem 0 rgb(179, 176, 176);
+  transition: box-shadow .2s ease;
+}
+#prevBtn{
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 50%;
+  right: 1%;
+}
+#prevBtn:hover,
+#nextBtn:hover{
+  box-shadow: 0 0 .4rem 0 rgb(153, 149, 149);
+  cursor: pointer;
+}
 
 /* FOOTER */
 

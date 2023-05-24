@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "img": "/multimedia/star-wars/trooper-1.webp",
+    "title": "STAR WARS",
+    "name": "STORMTROOPER LIGHTSABER",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 2,
+    "img": "/multimedia/pokemon/pidgeotto-1.webp",
+    "title": "POKEMON",
+    "name": "PIDGEOTTO",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 3,
+    "img": "/multimedia/harry-potter/luna-1.webp",
+    "title": "HARRY POTTER",
+    "name": "LUNA LOVEGOOD LION MASK",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 4,
+    "img": "/multimedia/star-wars/baby-yoda-1.webp",
+    "title": "STAR WARS",
+    "name": "BABY YODA",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  }, 
+  {
+    "id": 5,
+    "img": "/multimedia/pokemon/pikachu-1.webp",
+    "title": "POKEMON",
+    "name": "PIKACHU",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 6,
+    "img": "/multimedia/harry-potter/harry-1.webp",
+    "title": "HARRY POTTER",
+    "name": "HARRY POTTER",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 7,
+    "img": "/multimedia/star-wars/bobbafeth-1.webp",
+    "title": "STAR WARS",
+    "name": "BOBBAFETH",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 8,
+    "img": "/multimedia/pokemon/charmander-1.webp",
+    "title": "POKEMON",
+    "name": "CHARMANDER",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 9,
+    "img": "/multimedia/harry-potter/hermione-1.webp",
+    "title": "HARRY POTTER",
+    "name": "HERMIONE",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 10,
+    "img": "/multimedia/star-wars/luke-1.webp",
+    "title": "STAR WARS",
+    "name": "LUKE",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 11,
+    "img": "/multimedia/pokemon/dragonite-1.webp",
+    "title": "POKEMON",
+    "name": "DRAGONITE",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },
+  {
+    "id": 12,
+    "img": "/multimedia/harry-potter/snape-patronus-1.webp",
+    "title": "HARRY POTTER",
+    "name": "SNAPE PATRONUS",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  },  
+  {
+    "id": 13,
+    "img": "/multimedia/pokemon/vulpix-1.webp",
+    "title": "POKEMON",
+    "name": "VULPIX",
+    "precio": "$ 1799,99.-",
+    "cuotas": "3 CUOTAS SIN INTERES"
+  }
+]
